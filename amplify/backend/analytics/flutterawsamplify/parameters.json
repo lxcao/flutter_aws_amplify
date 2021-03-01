@@ -1,0 +1,21 @@
+{
+    "appName": "flutterawsamplify",
+    "roleName": "pinpointLambdaRole0ddfbe3d",
+    "cloudformationPolicyName": "cloudformationPolicy0ddfbe3d",
+    "cloudWatchPolicyName": "cloudWatchPolicy0ddfbe3d",
+    "pinpointPolicyName": "pinpointPolicy0ddfbe3d",
+    "authPolicyName": "pinpoint_amplify_0ddfbe3d",
+    "unauthPolicyName": "pinpoint_amplify_0ddfbe3d",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

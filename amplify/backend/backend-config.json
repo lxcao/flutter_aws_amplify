@@ -1,0 +1,22 @@
+{
+	"auth": {
+		"flutterawsamplify2d48a341": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	},
+	"storage": {
+		"s3da40b48a": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"analytics": {
+		"flutterawsamplify": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}

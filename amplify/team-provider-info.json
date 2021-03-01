@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-flutterawsamplify-dev-104231-authRole",
+            "UnauthRoleArn": "arn:aws:iam::667487681253:role/amplify-flutterawsamplify-dev-104231-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::667487681253:role/amplify-flutterawsamplify-dev-104231-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-flutterawsamplify-dev-104231-deployment",
+            "UnauthRoleName": "amplify-flutterawsamplify-dev-104231-unauthRole",
+            "StackName": "amplify-flutterawsamplify-dev-104231",
+            "StackId": "arn:aws:cloudformation:us-east-1:667487681253:stack/amplify-flutterawsamplify-dev-104231/2cc93630-515b-11eb-aedc-121b2f990f49",
+            "AmplifyAppId": "d27hddgl3r3jtc"
+        },
+        "categories": {
+            "auth": {
+                "flutterawsamplify2d48a341": {}
+            }
+        }
+    }
+}
